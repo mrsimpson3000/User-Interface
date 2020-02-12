@@ -84,12 +84,12 @@ time,
 mark,
 audio,
 video {
-	margin: 0;
-	padding: 0;
-	/* border: 0; */
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  /* border: 0; */
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -104,45 +104,45 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+  display: block;
 }
 
 body {
-	line-height: 1;
+  line-height: 1;
 }
 
 ol,
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-	quotes: none;
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: '';
-	content: none;
+  content: "";
+  content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-	height: 100%;
-	font-family: 'Titillium Web', sans-serif;
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
 h1,
@@ -150,65 +150,61 @@ h2,
 h3,
 h4,
 h5 {
-	font-family: 'Bangers', cursive;
-	letter-spacing: 1px;
-	margin-bottom: 15px;
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
-
 * {
-	/* border: 1px solid grey; */
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
-body {
-	max-width: 100%;
+section {
+  border: 1px solid gray;
 }
 
-/* Styles for the header section */
-nav {
-	padding: 10px 2%;
-	box-sizing: border-box;
-	display: inline-block;
-	width: 100%;
-	height: 75px;
-	line-height: 75px;
-	border: 1px solid grey;
-
-}
-
-nav .links a {
-	text-decoration: none;
-	color: lightgrey;
-	padding: 0 4.5%;
-	font-size: 12px;
-	box-sizing: border-box;
-	border: 1px solid grey;
-
+div {
+  border: 1px sold red;
 }
 
 nav .links {
-	display: inline-block;
-	width: 70%;
-	margin-left: 30px;
-	margin-right: 0px;
-	box-sizing: border-box;
-	padding: 0 auto;
-	border: 1px solid grey;
-
+  width: 60%;
+  display: inline-block;
+  border: 1px solid gray;
 }
 
-nav img {
-	vertical-align: center;
-	height: 33px;
-	border: 1px solid grey;
-
+nav .links a {
+  text-decoration: none;
+  color: darkgray;
+  padding: 0 4%;
 }
 
-header * {
-	border: 1px solid grey;
+nav .image {
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid purple;
 }
 
-/* Styles for the CTA section */
+.innovation {
+  height: 60%;
+}
 
-/* Styles for the main section */
+section .get-started {
+  display: inline-block;
+  width: 40%;
+}
+
+section .image {
+  display: inline-block;
+  width: 40%;
+}
+
+#home {
+  height: 10%;
+}
+
+#top {
+  height: 50px;
+}
