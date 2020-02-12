@@ -86,7 +86,7 @@ audio,
 video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -158,27 +158,55 @@ h5 {
 /* Your code starts here! */
 
 * {
-	border: 1px solid black;
+	/* border: 1px solid grey; */
+}
+
+body {
+	max-width: 100%;
 }
 
 /* Styles for the header section */
-.navbar {
+nav {
+	padding: 10px 2%;
+	box-sizing: border-box;
 	display: inline-block;
 	width: 100%;
+	height: 75px;
+	line-height: 75px;
+	border: 1px solid grey;
+
 }
 
-.navbar .links {
-	width: 78%;
-}
-
-.navbar img {
-	width: 18%;
-}
-
-.navbar a {
+nav .links a {
 	text-decoration: none;
 	color: lightgrey;
-	padding: 5%;
+	padding: 0 4.5%;
+	font-size: 12px;
+	box-sizing: border-box;
+	border: 1px solid grey;
+
+}
+
+nav .links {
+	display: inline-block;
+	width: 70%;
+	margin-left: 30px;
+	margin-right: 0px;
+	box-sizing: border-box;
+	padding: 0 auto;
+	border: 1px solid grey;
+
+}
+
+nav img {
+	vertical-align: center;
+	height: 33px;
+	border: 1px solid grey;
+
+}
+
+header * {
+	border: 1px solid grey;
 }
 
 /* Styles for the CTA section */
