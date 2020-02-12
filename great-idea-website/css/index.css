@@ -157,7 +157,29 @@ h5 {
 
 /* Your code starts here! */
 
+* {
+	border: 1px solid black;
+}
+
 /* Styles for the header section */
+.navbar {
+	display: inline-block;
+	width: 100%;
+}
+
+.navbar .links {
+	width: 78%;
+}
+
+.navbar img {
+	width: 18%;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: lightgrey;
+	padding: 5%;
+}
 
 /* Styles for the CTA section */
 
