@@ -161,50 +161,57 @@ h5 {
   max-width: 100%;
 }
 
-section {
-  border: 1px solid gray;
+body {
+  padding: 0 %;
+  padding-top: 3%;
 }
 
-div {
-  border: 1px sold red;
+nav {
+  height: 60px;
 }
 
 nav .links {
-  width: 60%;
+  width: 70%;
   display: inline-block;
-  border: 1px solid gray;
 }
 
 nav .links a {
   text-decoration: none;
   color: darkgray;
-  padding: 0 4%;
+  padding: 0 5.2%;
 }
 
 nav .image {
   display: inline-block;
   vertical-align: middle;
-  border: 1px solid purple;
+  height: 100%;
+  width: 22.5%;
+}
+
+nav img {
+  display: inline-block;
+  width: 100%;
+  padding-left: 10%;
 }
 
 .innovation {
   height: 60%;
 }
 
-section .get-started {
+.innovation .get-started {
   display: inline-block;
   width: 40%;
 }
 
-section .image {
+.innovation .image {
   display: inline-block;
   width: 40%;
 }
 
-#home {
-  height: 10%;
+section {
+  border: 1px solid gray;
 }
 
-#top {
-  height: 50px;
+div {
+  border: 1px sold red;
 }
