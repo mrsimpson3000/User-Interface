@@ -278,6 +278,27 @@ nav img {
   padding: 2%;
 }
 
+/* Contact Section */
+#contact {
+  display: inline-block;
+  width: 30%;
+  padding: 0 5%;
+  padding-top: 3%;
+  font-size: 24px;
+}
+
+#contact p {
+  padding-bottom: 5%;
+}
+
+/* The Footer */
+footer p {
+  text-align: center;
+  padding: 5% 0;
+  margin-bottom: 10%;
+  font-size: 20px;
+}
+
 /* section {
   border: 1px solid gray;
 }
