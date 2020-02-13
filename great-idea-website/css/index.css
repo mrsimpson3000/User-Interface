@@ -86,7 +86,6 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  /* border: 0; */
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -239,6 +238,45 @@ nav img {
 }
 
 /* Top Section of next 3 sections */
+#top {
+  width: 100%;
+  padding: 5% 0;
+  font-size: 24px;
+}
+
+#top .features {
+  display: inline-block;
+  width: 48%;
+  padding-left: 5%;
+}
+
+#top .about {
+  display: inline-block;
+  width: 48%;
+  padding-left: 5%;
+}
+
+/* Middle Section */
+#middle img {
+  display: inline-block;
+  width: 100%;
+  padding: 0 5%;
+}
+
+/* Bottom Section */
+#bottom {
+  display: inline-block;
+  width: 100%;
+  padding: 3%;
+  font-size: 24px;
+}
+
+#bottom div {
+  text-align: left;
+  display: inline-block;
+  width: 33%;
+  padding: 2%;
+}
 
 /* section {
   border: 1px solid gray;
