@@ -162,10 +162,14 @@ h5 {
 }
 
 body {
-  padding: 0 %;
   padding-top: 3%;
 }
 
+hr {
+  width: 90%;
+}
+
+/* Home section */
 nav {
   height: 60px;
 }
@@ -194,24 +198,52 @@ nav img {
   padding-left: 10%;
 }
 
-.innovation {
-  height: 60%;
+/* Innovation section */
+#innovation {
+  height: 600px;
+  margin: 5% 0;
+  border-bottom: 1px black;
 }
 
-.innovation .get-started {
+#innovation .get-started {
   display: inline-block;
   width: 40%;
+  vertical-align: middle;
+  height: 80%;
+  width: 55%;
+  padding-top: 8%;
+  padding-left: 5%;
+  text-align: center;
 }
 
-.innovation .image {
+#innovation .get-started h1 {
+  font-size: 100px;
+  text-align: center;
+}
+
+#innovation .image {
   display: inline-block;
   width: 40%;
+  height: 80%;
+  vertical-align: middle;
 }
 
-section {
+#innovation .image img {
+  height: 550px;
+  width: 550px;
+}
+
+#innovation .get-started button {
+  padding: 10px 55px;
+  font-size: 24px;
+}
+
+/* Top Section of next 3 sections */
+
+/* section {
   border: 1px solid gray;
 }
 
 div {
   border: 1px sold red;
-}
+} */
