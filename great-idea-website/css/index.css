@@ -3,64 +3,307 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  /* font-family: "Titillium Web", sans-serif; */
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Rokkitt", serif; /* New Font Family	*/
+  padding-top: 3%;
+}
+
+hr {
+  width: 90%;
+}
+
+/* Home section */
+nav {
+  height: 60px;
+}
+
+nav .links {
+  width: 70%;
+  display: inline-block;
+}
+
+nav .links a {
+  text-decoration: none;
+  color: darkgray;
+  padding: 0 5.2%;
+}
+
+nav .image {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  width: 22.5%;
+}
+
+nav img {
+  display: inline-block;
+  width: 100%;
+  padding-left: 10%;
+}
+
+/* Innovation section */
+#innovation {
+  height: 600px;
+  margin: 5% 0;
+  border-bottom: 1px black;
+}
+
+#innovation .get-started {
+  display: inline-block;
+  width: 40%;
+  vertical-align: middle;
+  height: 80%;
+  width: 55%;
+  padding-top: 8%;
+  padding-left: 5%;
+  text-align: center;
+}
+
+#innovation .get-started h1 {
+  font-size: 100px;
+  text-align: center;
+}
+
+#innovation .image {
+  display: inline-block;
+  width: 40%;
+  height: 80%;
+  vertical-align: middle;
+}
+
+#innovation .image img {
+  height: 550px;
+  width: 550px;
+}
+
+#innovation .get-started button {
+  padding: 10px 55px;
+  font-size: 24px;
+}
+
+/* Top Section of next 3 sections */
+#top {
+  width: 100%;
+  padding: 5% 0;
+  font-size: 24px;
+}
+
+#top .features {
+  display: inline-block;
+  width: 48%;
+  padding-left: 5%;
+}
+
+#top .about {
+  display: inline-block;
+  width: 48%;
+  padding-left: 5%;
+}
+
+/* Middle Section */
+#middle img {
+  display: inline-block;
+  width: 100%;
+  padding: 0 5%;
+}
+
+/* Bottom Section */
+#bottom {
+  display: inline-block;
+  width: 100%;
+  padding: 3%;
+  font-size: 24px;
+}
+
+#bottom div {
+  text-align: left;
+  display: inline-block;
+  width: 32%;
+  padding: 2%;
+}
+
+/* Contact Section */
+#contact {
+  display: inline-block;
+  width: 30%;
+  padding: 0 5%;
+  padding-top: 3%;
+  font-size: 24px;
+}
+
+#contact p {
+  padding-bottom: 5%;
+}
+
+/* The Footer */
+footer p {
+  text-align: center;
+  padding: 5% 0;
+  margin-bottom: 10%;
+  font-size: 20px;
+}
+
+/* section {
+  border: 1px solid gray;
+}
+
+div {
+  border: 1px sold red;
+} */
